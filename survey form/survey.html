@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title></title>
+<link rel="stylesheet" href="survey.css">
+    </head>
+    <body>
+        <div id="main">
+        <span>><h1 id="title">Prime courses </h1>
+        <p id="description">getting ahead......
+        </p>
+        </span>
+        <form id="survey-form">
+            <label for="name" id="name-label" ><span class="bols">Enter your Name:</span>
+                <input type="text" id="name" placeholder=" Input Name" class="name" required>
+            </label>
+            <label for="email" id="email-label" ><span class="bols">Enter your Email:</span></label>
+                <input type="email" id="email" name="email" placeholder="Input email" class="name" required>
+            </label>
+            <label for="age" id="number-label"><span class="bols">Enter your Age:</span>
+                <input type="number" id="number" min="7" max="300" placeholder="Age" required class="name">
+            </label>                    
+        <p><span class="bols">Please select your Country:</span></p>
+        <select id="dropdown">                
+                <option>Nigeria</option>
+                <option>England</option>
+                <option>China</option>
+                <option>Rome</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>Japan</option>
+                <option>France</option>
+                <option>Germany</option>
+            </select>
+            <p><span class="bols">Choice of Study:</span></p>
+            <div class="opo">
+        <label id="choice" for="choice"><input type="radio" value="radio" name="choice">Remotely</label>
+        <label id="choice"><input type="radio" value="radio"  name="choice">Physically</label></div>
+           
+            <p class="courses"><span class="bols">Courses you'd like to learn</span></p>
+          <span class="los"> <label for="check1box" class="click"><input type="checkbox" id="check1box" value="1" class="checkbox" >Full stack development</label></span>
+          <span class="los"><label for="check2box" class="click">    <input type="checkbox" value="2" id="check2box" class="checkbox" >Power BI</label></span>
+          <span class="los"> <label for="check3box" class="click">   <input type="checkbox" value="3" id="check3box" class="checkbox" >Search engine optimization(SEO)</label></span>
+          <span class="los">      <label for="check4box" class="click">   <input type="checkbox" value="4" id="check4box" class="checkbox" >Graphic Design</label></span>
+          <span class="los">        <label for="check5box" class="click">           <input type="checkbox" value="5" id="check5box" class="checkbox" >Ethical Hacking</label></span>
+          <span class="los">          <label for="check6box" class="click">            <input type="checkbox" value="6" id="check6box" class="checkbox" >Blockchain</label></span>
+          <span class="los">   <label for="check7box" class="click">            <input type="checkbox" value="7" id="check7box"class="checkbox"  >I don't like learning!!</label></span>
+                        
+    <span class="bols"><p>Do You Have a suggestion?</span></p>
+        <textarea  id="suggest" cols="25" rows="7" placeholder="Write any suggestion">
+
+        </textarea >
+        <input type="submit" id="submit" value="SUBMIT">
+        </div>
+
+        </form>
+
+    </body>
+</html>
